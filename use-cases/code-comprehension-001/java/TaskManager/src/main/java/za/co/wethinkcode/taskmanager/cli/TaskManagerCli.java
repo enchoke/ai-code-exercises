@@ -286,10 +286,10 @@ public class TaskManagerCli {
                 statusSymbol = "[>]";
                 break;
             case REVIEW:
-                statusSymbol = "[?]";
+                statusSymbol = "[X]";
                 break;
             case DONE:
-                statusSymbol = "[✓]";
+                statusSymbol = "[^-^]";
                 break;
             default:
                 statusSymbol = "[-]";
